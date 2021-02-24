@@ -585,11 +585,11 @@ RectTransform:
   m_Father: {fileID: 1344399603}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 1}
-  m_AnchorMax: {x: 0.5, y: 1}
+  m_AnchorMin: {x: 0.5, y: 0}
+  m_AnchorMax: {x: 0.5, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 200, y: 50}
-  m_Pivot: {x: 0.5, y: 1}
+  m_Pivot: {x: 0.5, y: 0}
 --- !u!114 &1051065022
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -731,10 +731,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   handPrefab: {fileID: 2568141977472195187, guid: 13ed9bb9014eee11388eaf08fe9b3562, type: 3}
-  handPrefabScale: 3
-  mineHandsCount: 3
-  mineHandsWidth: 0.7
-  mineHandsY: 0.15
+  handPrefabScale: 2
+  mineHandsCount: 4
+  mineHandsWidth: 0.3
+  mineHandsY: 0.2
 --- !u!1 &1344399602
 GameObject:
   m_ObjectHideFlags: 0
