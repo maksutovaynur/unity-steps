@@ -4,13 +4,12 @@ using UnityEngine;
 public class HandState : MonoBehaviour
 {
     public List<Sprite> sprites;
-    private int state;
+    private int state = -1;
     private SpriteRenderer spriteRenderer;
 
-    private void Start()
+    private void Awake()
     {
         spriteRenderer = GetComponent<SpriteRenderer>();
-        SetState(0);
     }
 
     public void SetState(int newState)
@@ -18,7 +17,7 @@ public class HandState : MonoBehaviour
         if (state == newState) return;
         if (sprites == null) return;
         if (newState < 0 || newState >= sprites.Count) return;
-        spriteRenderer.sprite = sprites[state];
+        spriteRenderer.sprite = sprites[newState];
         state = newState;
     }
 }

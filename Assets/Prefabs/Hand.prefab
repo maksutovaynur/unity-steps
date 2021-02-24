@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 7038054921916685479}
   - component: {fileID: 484967631129389917}
   - component: {fileID: 633473990778349563}
+  - component: {fileID: 402201172576720817}
   m_Layer: 0
   m_Name: Hand
   m_TagString: Untagged
@@ -26,7 +27,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2568141977472195187}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -99,3 +100,19 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 00bf22e46c69e6155ab9237aadbbaac6, type: 3}
   - {fileID: 21300000, guid: 5fedcf7253f9aab43a5b10bfe7798ef8, type: 3}
   - {fileID: 21300000, guid: eddd04f804f70cf6b90eb1f6dd84bdea, type: 3}
+--- !u!58 &402201172576720817
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2568141977472195187}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0.5}
+  serializedVersion: 2
+  m_Radius: 0.5
